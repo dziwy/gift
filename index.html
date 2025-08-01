@@ -1,78 +1,77 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Selamat Hari Pasangan Sedunia 💙</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To Zena</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Poppins', sans-serif;
-      color: #fff;
-      background: linear-gradient(120deg, #1a2a6c, #0f0c29);
-      min-height: 100vh;
+      padding: 0;
+      background: linear-gradient(#0e1a2b, #203045);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
       overflow-x: hidden;
     }
-    .section { padding: 60px 20px; text-align: center; position: relative; }
-    h1 { font-size: 2.8em; margin-bottom: 20px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5);}
-    p { font-size: 1.2em; line-height: 1.5em; max-width: 600px; margin: auto;}
-    .illustration { width: 200px; border-radius: 10px; margin-bottom: 30px; }
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 28px;
-      background: #4a90e2;
-      color: white;
-      font-size: 1em;
-      border: none;
-      border-radius: 50px;
-      cursor: pointer;
-      text-decoration: none;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-      transition: transform 0.2s;
+
+    .container {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
     }
-    .button:hover { transform: scale(1.05);}
-    .flower { position: absolute; width: 48px; animation: float 8s ease-in-out infinite; }
-    @keyframes float {
-      0%,100% { transform: translateY(0) rotate(0deg); }
-      50% { transform: translateY(-20px) rotate(15deg); }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
     }
-    /* Parallax stars */
-    .stars { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url('https://i.imgur.com/Kw9Gg3N.png') repeat; opacity: 0.3; z-index:0; }
-    .section { position: relative; z-index:1; }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 20px;
+      margin-top: 30px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    audio {
+      margin-top: 40px;
+      width: 100%;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      opacity: 0.6;
+    }
   </style>
 </head>
 <body>
-  <div class="stars"></div>
+  <div class="container">
+    <h1>Happy World Couple Day, Nena 💌</h1>
+    <p>
+      Dalam malam yang tenang dan langit penuh bintang,<br>
+      aku ingin kau tahu satu hal:<br>
+      Aku akan selalu menjaga kamu, Zena.<br><br>
+      Terima kasih sudah menjadi tempat pulangku.<br>
+      You're the calm after my chaos.
+    </p>
 
-  <!-- Section 1: Judul + Ilustrasi -->
-  <div class="section" style="padding-top:120px;">
-    <h1>Selamat Hari Pasangan Sedunia</h1>
-    <img src="ILUSTRASI_URL" alt="Ilustrasi kita berdua" class="illustration">
-    <h2>Untuk sayangku, <strong>Nenaa</strong> 💙</h2>
-  </div>
+    <img src="https://raw.githubusercontent.com/dziwy/gift/main/ChatGPT%20Image%20Aug%201%2C%202025%2C%2012_16_54%20PM.png" alt="Ilustrasi ZENA" />
 
-  <!-- Section 2: Surat + Audio -->
-  <div class="section">
-    <p>Abang linduuu banget sama kamu, ayaaang 💓<br>
-    Jaga kesehatan ya sayang, beliin mamanya makan jangan telat!<br>
-    Semangat jualannya yaa, semogaaa laku banyak, sayang cintaaku.</p>
-    <a href="https://open.spotify.com/track/..." class="button" target="_blank">🎵 Putar Keep You Safe (Acoustic)</a>
-  </div>
+    <audio controls autoplay loop>
+      <source src="https://raw.githubusercontent.com/dziwy/gift/main/Yahya%20-%20keepyousafe%20(Official%20Lyrics%20Video).mp3" type="audio/mpeg">
+      Browser kamu tidak mendukung pemutar audio.
+    </audio>
 
-  <!-- Section 3: Animasi Bunga & tambahan pesan -->
-  <div class="section">
-    <p>✨ Bunga‑bunga biru dan bintang malam ini mewakili gemerlap cinta kita yang menyinari walau kita jauh<br>
-    Setiap kelipan cahaya itu ingat abang terus sayang, ya.</p>
-    <img src="https://i.imgur.com/o8JgM4i.png" class="flower" style="left:10%; top:20%;">
-    <img src="https://i.imgur.com/o8JgM4i.png" class="flower" style="left:80%; top:30%; animation-delay:3s;">
-    <img src="https://i.imgur.com/o8JgM4i.png" class="flower" style="left:50%; top:60%; animation-delay:6s;">
-  </div>
-
-  <!-- Section 4: Penutup + Share Button -->
-  <div class="section" style="padding-bottom:120px;">
-    <p>Aku mungkin gak bisa dekat sekarang—tapi aku tetap ada di setiap waktu kamu.<br>
-    Semangat terus, sayang. Abang sayang banget sama kamu, selalu dan selamanya. 💌</p>
-    <a href="#" onclick="navigator.clipboard.writeText(location.href); alert('Link disalin, Brai–!')" class="button">💬 Kirim ke Nenaa</a>
+    <footer>
+      with love,<br>
+      dziwy ✨
+    </footer>
   </div>
 </body>
 </html>
